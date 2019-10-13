@@ -63,7 +63,7 @@ Enter The Second Numder: 78.2648
 Answer is: = 123.525
 
 
-# 8. Program of Sum of two Constants
+# 4. Program of Sum of two Constants
 #include<stdio.h>
 int main()
 {
