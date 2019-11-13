@@ -61,7 +61,7 @@ return 0;
 73.00 x 6 = 438.000
 73.00 x 7 = 511.000
 
-# 4. Program to find Area, Perieter, Volume of a Circle
+# 4. Program to find Area, Perimeter, Volume of a Circle
 
 #include<stdio.h>
 int main()
