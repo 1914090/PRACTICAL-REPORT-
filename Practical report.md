@@ -623,7 +623,9 @@ int main()
 
  return 0;
 }
-##output of the program
+
+
+## Output of the program
 Enter an integer
 13
 Odd
