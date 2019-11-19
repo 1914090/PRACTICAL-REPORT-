@@ -99,7 +99,7 @@ printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
 printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
 return 0;
 }
-## Output of the program#
+## Output of the program
 Enter Height: 24
 Enter Bredth: 60
 Area of Sqare (or) Rectangle: = 1440.000
@@ -337,26 +337,8 @@ Enter The First Value: 45
 Enter The Second Value: 34
 Enter The Third Value: 18
 Average is: 32.33
-# 15. Program to print F by using #
-#include<stdio.h>
-int main()
-{
-printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
-return 0;
-}
-## Output of the program
-########
-#
-#
-#
-#####
-#
-#
-#
-#
-#
-#
-# 16. Program to find FizzBuzz od a Integer
+
+# 15. Program to find FizzBuzz od a Integer
 
 #include<stdio.h>
 int main()
@@ -377,7 +359,7 @@ return 0;
 ## Output of the program
 Enter the Interger: 171
 Fizz
-# 17. Program of print a Calculator using puts function
+# 16. Program of print a Calculator using puts function
 #include<stdio.h>
 void main()
 {
@@ -402,31 +384,8 @@ _______________
 |___|___|___|___|
 | 0 | * |
 |___________|___|
-# 18. Program to print a Face using puts function
-#include<stdio.h>
-void main()
-{
-puts("________________");
-puts("| XXXXXXXXX |");
-puts("| ( ^ ^ ) |");
-puts("| ( 0 0 ) |");
-puts("| \\ | / |");
-puts("| \\ = / |");
-puts("| \\_/ |");
-puts("| | |");
-puts("|_______|______|\n");
-}
-## Output of the program
-| XXXXXXXXX |
-| ( ^ ^ ) |
-| ( 0 0 ) |
-| \ | / |
-| \ = / |
-| \_/ |
-| | |
-|_______|______|
-# 19. Program of Addition of 2x2 Matrix
 
+# 17. Program of Addition of 2x2 Matrix
 
 #include<stdio.h>
 int main()
@@ -539,7 +498,7 @@ Enter The Valve of g: 9
 Enter The Valve of h: 1
 Multiplication of A,B is: | 66.00 40.00 |
 | 12.00 20.00 |
-# 21. Program of FizzBuzz in a continues loop
+# 18. Program of FizzBuzz in a continues loop
 #include<stdio.h>
 int main()
 {
@@ -580,7 +539,7 @@ FizzBuzz
 17
 
 
-# 21.Program of prime number
+# 19.Program of prime number
 
 include <stdio.h>
 int main()                                                      {
@@ -601,7 +560,7 @@ return 0;
 enter the number6
 number is not prime
 
-# 22.Program to find number is odd or even
+# 20.Program to find number is odd or even
 #include <stdio.h>
 
 int main()
