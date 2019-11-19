@@ -23,9 +23,9 @@ Hello World
 int main()
 {
 float x,y,z;
-printf("\nEnter The First Numder: ");
+printf("\nEnter The First Number: ");
 scanf("%f", &x);
-printf("\nEnter The Second Numder: ");
+printf("\nEnter The Second Number: ");
 scanf("%f", &y);
 z = x+y;
 printf("\nAnswer is: = %.3f", z);
