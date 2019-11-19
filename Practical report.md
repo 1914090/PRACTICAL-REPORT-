@@ -542,15 +542,19 @@ FizzBuzz
 # 19.Program of prime number
 
 include <stdio.h>
-int main()                                                      {
+int main()  
+                                                    {
    int n;
 printf("enter the number");
 scanf("%d",&n);
+
 for(int i=1;i<n;i++)
 {
   if(n%i!=0)
-    {  printf("number is prime");
-       break;   }
+    {  
+     printf("number is prime");
+       break; 
+  }
 else                                                            {  printf("number is not prime");
    break;  }
 }
