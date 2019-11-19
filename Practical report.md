@@ -104,27 +104,8 @@ Enter Height: 24
 Enter Bredth: 60
 Area of Sqare (or) Rectangle: = 1440.000
 Perimeter of Sqare (or) Rectangle: = 168.000
-# 6. Program to find Interest
-#include<stdio.h>
-int main()
-{
-float P,R,T,Interest;
-printf("\nEnter The Principal Amount: ");
-scanf("%f", &P);
-printf("\nEnter The Interest Rate: ");
-scanf("%f", &R);
-printf("\nEnter The Time (in months): ");
-scanf("%f", &T);
-Interest = P*T*R/100;
-printf("\nSimple Intesest is: = %.2f", Interest);
-return Interest;
-}
-## Output of the program
-Enter The Principal Amount: 4000
-Enter The Interest Rate: 4
-Enter The Time (in months): 3
-Simple Intesest is: = 480.00
-# 7. Program to find Maximum
+
+# 6. Program to find Maximum
 #include<stdio.h>
 int max(float x,float y);
 int main()
@@ -151,7 +132,7 @@ return result;
 Enter The First Value: 5
 Enter The Second Value: 4
 Maximum value is: 5.00
-# 8. Program of Sum of two Constants
+# 7. Program of Sum of two Constants
 #include<stdio.h>
 int main()
 {
@@ -164,7 +145,7 @@ return 0;
 a=100
 b=120
 Sum of a and b is :220
-# 9. Program To find Minimum
+# 8. Program To find Minimum
 #include<stdio.h>
 int min(float x,float y);
 int main()
@@ -191,7 +172,7 @@ return result;
 Enter The First Value: 5
 Enter The SecondValue: 3
 Minimum value is: 3.00
-# 10. Program to print Bio Data of Students
+# 9. Program to print Bio Data of Students
 #include<stdio.h>
 int main()
 {
@@ -222,7 +203,7 @@ Enter The Name of The Student : Rohan
 Enter The Roll No. of Students: 1914090
 Name = Rohan
 Roll No. = 1914090
-# 11. Program to use Arithmetic Operators
+# 10. Program to use Arithmetic Operators
 #include<stdio.h>
 int main()
 {
@@ -253,7 +234,7 @@ y - x = -14.000
 x * y = 1395.000
 x/y = 1.452
 y/x = 0.689
-# 12. Program to use Assignment Operators
+# 11. Program to use Assignment Operators
 #include<stdio.h>
 int main()
 {
@@ -279,7 +260,7 @@ Answer is a+x = 90.000
 Answer is a-x = 45.000
 Answer is a*x = 2025.000
 Answer is a/x= 45.000
-# 13. Program to use Operator Precedence
+# 12. Program to use Operator Precedence
 #include<stdio.h>
 int main()
 {
@@ -311,7 +292,7 @@ Enter The Value of d: 71
 (c+d)*a*b = 124155.000
 a*d/(c-b-a) = -55.086
 (b-c)*(a-d) = -338.000
-# 14. Program to find Average
+# 13. Program to find Average
 #include<stdio.h>
 float average();
 int main()
@@ -338,7 +319,7 @@ Enter The Second Value: 34
 Enter The Third Value: 18
 Average is: 32.33
 
-# 15. Program to find FizzBuzz of a Integer
+# 14. Program to find FizzBuzz of a Integer
 
 #include<stdio.h>
 int main()
@@ -359,7 +340,7 @@ return 0;
 ## Output of the program
 Enter the Interger: 171
 Fizz
-# 16. Program of print a Calculator using puts function
+# 15. Program of print a Calculator using puts function
 #include<stdio.h>
 void main()
 {
@@ -385,7 +366,7 @@ _______________
 | 0 | * |
 |___________|___|
 
-# 17. Program of Addition of 2x2 Matrix
+# 16. Program of Addition of 2x2 Matrix
 
 #include<stdio.h>
 int main()
@@ -449,7 +430,7 @@ Substraction of Matrix(A-B) is: | 4.00 0.00 |
 | -5.00 -1.00 |
 Substraction of Matrix(B-A) is: | -4.00 0.00 |
 | 5.00 1.00 |
-# 20. Program of Multiplication of 2x2 Matrix
+# 17. Program of Multiplication of 2x2 Matrix
 #include<stdio.h>
 int main()
 {
@@ -498,6 +479,7 @@ Enter The Valve of g: 9
 Enter The Valve of h: 1
 Multiplication of A,B is: | 66.00 40.00 |
 | 12.00 20.00 |
+
 # 18. Program of FizzBuzz in a continues loop
 #include<stdio.h>
 int main()
