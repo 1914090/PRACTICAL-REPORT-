@@ -528,7 +528,7 @@ Sample of Ist matrix: | a=1 b=2 |
 Sample of 2nd matrix: | e=5 f=6 |
 | f=7 h=8 |
 Enter The Valve of a: 7
-Enter The Valve of b: 5
+Enter The Valve of b: 5 ko
 Enter The Valve of c: 4
 Enter The Valve of d: 0
 Enter The Valve of e: 3
