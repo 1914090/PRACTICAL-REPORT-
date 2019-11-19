@@ -580,7 +580,51 @@ FizzBuzz
 17
 
 
+# 21.Program of prime number
 
+include <stdio.h>
+int main()                                                      {
+   int n;
+printf("enter the number");
+scanf("%d",&n);
+for(int i=1;i<n;i++)
+{
+  if(n%i!=0)
+    {  printf("number is prime");
+       break;   }
+else                                                            {  printf("number is not prime");
+   break;  }
+}
+return 0;
+}
+## Output of the program
+enter the number6
+number is not prime
 
+# 22.Program to find number is odd or even
+#include <stdio.h>
 
+int main()
+
+{
+
+ int n;
+
+ printf("Enter an integer\n");                             
+ scanf("%d",&n);
+
+ if ( n%2 == 0 )
+
+ printf("Even\n");
+
+ else
+
+ printf("Odd\n");
+
+ return 0;
+}
+##output of the program
+Enter an integer
+13
+Odd
 
