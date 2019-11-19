@@ -338,7 +338,7 @@ Enter The Second Value: 34
 Enter The Third Value: 18
 Average is: 32.33
 
-# 15. Program to find FizzBuzz od a Integer
+# 15. Program to find FizzBuzz of a Integer
 
 #include<stdio.h>
 int main()
