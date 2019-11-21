@@ -23,6 +23,7 @@ Hello World
 
 
 # 2. Program to find Sum
+```C
 #include<stdio.h>
 int main()
 {
@@ -35,12 +36,15 @@ z = x+y;
 printf("\nAnswer is: = %.3f", z);
 return 0;
 }
+```
 
 ## Output of the program
 Enter The First Numder: 45.26
 Enter The Second Numder: 78.2648
 Answer is: = 123.525
+
 # 3. Program to print a Table
+```C
 #include<stdio.h>
 int main()
 {
@@ -56,6 +60,7 @@ printf("\n%.2f x %d = %.3f",x,y,x*y);
 }
 return 0;
 }
+```
 ## Output of the program
 73.00 x 1 = 73.000
 73.00 x 2 = 146.000
@@ -65,51 +70,9 @@ return 0;
 73.00 x 6 = 438.000
 73.00 x 7 = 511.000
 
-# 4. Program to find Area, Perimeter, Volume of a Circle
 
-#include<stdio.h>
-int main()
-{
-float r,P,A,V;
-float pi = 22/7.0;
-printf("\nEnter The Radius of Circle: ");
-scanf("%f",&r);
-P = 2*pi*r;
-A = pi*r*r;
-V = 4*pi*r*r*r/3.0;
-printf("\nPerimeter of Circle is: = %.2f",P);
-printf("\nArea of Circle is: = %.2f",A);
-printf("\nVolume of Circle is: = %.2f",V);
-return 0;
-}
-## Output of the program
-Enter The Radius of Circle: 4.5
-Perimeter of Circle is: = 28.29
-Area of Circle is: = 63.64
-Volume of Circle is: = 381.86
-# 5. Program to find Area, Perimeter of a Rectangle
-#include<stdio.h>
-int main()
-{
-float h,b,A,P;
-printf("\nEnter Height: ");
-scanf("%f",&h);
-printf("\nEnter Bredth: ");
-scanf("%f",&b);
-
-A = h*b;
-P = 2*(h+b);
-printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
-printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
-return 0;
-}
-## Output of the program
-Enter Height: 24
-Enter Bredth: 60
-Area of Sqare (or) Rectangle: = 1440.000
-Perimeter of Sqare (or) Rectangle: = 168.000
-
-# 6. Program to find Maximum
+# 4. Program to find Maximum
+```C
 #include<stdio.h>
 int max(float x,float y);
 int main()
@@ -132,11 +95,14 @@ else
 result = x;
 return result;
 }
+```
 ## Output of the program
 Enter The First Value: 5
 Enter The Second Value: 4
 Maximum value is: 5.00
-# 7. Program of Sum of two Constants
+
+# 5. Program of Sum of two Constants
+```C
 #include<stdio.h>
 int main()
 {
@@ -145,11 +111,14 @@ c = a+b;
 printf("\na=100\nb=120\nSum of a and b is :%d",c);
 return 0;
 }
+```
 ## Output of the program
 a=100
 b=120
 Sum of a and b is :220
-# 8. Program To find Minimum
+
+# 6. Program To find Minimum
+```C
 #include<stdio.h>
 int min(float x,float y);
 int main()
@@ -172,11 +141,14 @@ else
 result = y;
 return result;
 }
+```
 ## Output of the program
 Enter The First Value: 5
 Enter The SecondValue: 3
 Minimum value is: 3.00
-# 9. Program to print Bio Data of Students
+
+# 7. Program to print Bio Data of Students
+```C
 #include<stdio.h>
 int main()
 {
@@ -193,6 +165,7 @@ scanf("%d",&R);printf("\nName = %s\nRoll No. = %d\n", name,R);
 }
 return 0;
 }
+```
 ## Output of the program
 Enter The Number of Students: 3
 Enter The Name of The Student : Sharan
@@ -207,7 +180,9 @@ Enter The Name of The Student : Rohan
 Enter The Roll No. of Students: 1914090
 Name = Rohan
 Roll No. = 1914090
-# 10. Program to use Arithmetic Operators
+
+# 8. Program to use Arithmetic Operators
+```C
 #include<stdio.h>
 int main()
 {
@@ -229,6 +204,7 @@ a = y/x;
 printf("y/x = %.3f\n",a);
 return 0;
 }
+```
 ## Output of the program
 Enter The Value of x: 45
 Enter The Value of y: 31
@@ -238,7 +214,7 @@ y - x = -14.000
 x * y = 1395.000
 x/y = 1.452
 y/x = 0.689
-# 11. Program to use Assignment Operators
+# 9. Program to use Assignment Operators
 #include<stdio.h>
 int main()
 {
@@ -264,7 +240,7 @@ Answer is a+x = 90.000
 Answer is a-x = 45.000
 Answer is a*x = 2025.000
 Answer is a/x= 45.000
-# 12. Program to use Operator Precedence
+# 10. Program to use Operator Precedence
 #include<stdio.h>
 int main()
 {
@@ -296,7 +272,8 @@ Enter The Value of d: 71
 (c+d)*a*b = 124155.000
 a*d/(c-b-a) = -55.086
 (b-c)*(a-d) = -338.000
-# 13. Program to find Average
+# 11. Program to find Average
+```C
 #include<stdio.h>
 float average();
 int main()
@@ -317,14 +294,15 @@ s = x+y+z;
 a = s/3;
 return a;
 }
+```
 ## Output of the program
 Enter The First Value: 45
 Enter The Second Value: 34
 Enter The Third Value: 18
 Average is: 32.33
 
-# 14. Program to find FizzBuzz of a Integer
-
+# 12. Program to find FizzBuzz of a Integer
+```C
 #include<stdio.h>
 int main()
 {
@@ -341,10 +319,11 @@ else
 printf("\n%d",n);
 return 0;
 }
+```
 ## Output of the program
 Enter the Interger: 171
 Fizz
-# 15. Program of print a Calculator using puts function
+# 13. Program of print a Calculator using puts function
 #include<stdio.h>
 void main()
 {
@@ -370,8 +349,8 @@ _______________
 | 0 | * |
 |___________|___|
 
-# 16. Program of Addition of 2x2 Matrix
-
+# 14. Program of Addition of 2x2 Matrix
+```C
 #include<stdio.h>
 int main()
 {
@@ -415,6 +394,7 @@ printf("\n\nSubstraction of Matrix(B-A) is: | %.2f %.2f |\n | %.2f
 %.2f |",i,j,k,l);
 return 0;
 }
+```
 ## Output of the program
 Sample of Ist matrix: | a=1 b=2 |
 | c=3 d=4 |
@@ -434,57 +414,10 @@ Substraction of Matrix(A-B) is: | 4.00 0.00 |
 | -5.00 -1.00 |
 Substraction of Matrix(B-A) is: | -4.00 0.00 |
 | 5.00 1.00 |
-# 17. Program of Multiplication of 2x2 Matrix
-#include<stdio.h>
-int main()
-{
-float a,b,c,d,e,f,g,h,i,j,k,l;
-printf("\nSample of Ist matrix: | a=1 b=2 |\n | c=3 d=4 |\n\n\
-Sample of 2nd matrix: | e=5 f=6 |\n | f=7 h=8 |\n\n");
 
 
-printf("Enter The Valve of a: ");
-scanf("%f",&a);
-printf("Enter The Valve of b: ");
-scanf("%f",&b);
-printf("Enter The Valve of c: ");
-scanf("%f",&c);
-printf("Enter The Valve of d: ");
-scanf("%f",&d);
-printf("Enter The Valve of e: ");
-scanf("%f",&e);
-printf("Enter The Valve of f: ");
-scanf("%f",&f);
-printf("Enter The Valve of g: ");
-scanf("%f",&g);
-printf("Enter The Valve of h: ");
-scanf("%f",&h);
-i=(a*e)+(b*g);
-j=(a*f)+(b*h);
-k=(c*e)+(d*g);
-l=(c*f)+(d*h);
-printf("\nMultiplication of A,B is: | %.2f %.2f |\n | %.2f %.2f |",i,j,k,l);
-return 0;
-}
-## Output of the program
-Sample of Ist matrix: | a=1 b=2 |
-| c=3 d=4 |
-Sample of 2nd matrix: | e=5 f=6 |
-| f=7 h=8 |
-Enter The Valve of a: 7
-Enter The Valve of b: 5 ko
-Enter The Valve of c: 4
-Enter The Valve of d: 0
-Enter The Valve of e: 3
-Enter The Valve of f: 5
-Enter The Valve of g: 9
-
-
-Enter The Valve of h: 1
-Multiplication of A,B is: | 66.00 40.00 |
-| 12.00 20.00 |
-
-# 18. Program of FizzBuzz in a continues loop
+# 15. Program of FizzBuzz in a continues loop
+```C
 #include<stdio.h>
 int main()
 {
@@ -505,6 +438,7 @@ printf("%d\n",x);
 }
 return 0;
 }
+```
 ## Output of the program
 Enter The Integer: 17
 1
@@ -525,8 +459,8 @@ FizzBuzz
 17
 
 
-# 19.Program of prime number
-
+# 16.Program of prime number
+```C
 include <stdio.h>
 int main()  
                                                     {
@@ -546,11 +480,13 @@ else                                                            {  printf("numbe
 }
 return 0;
 }
+```
 ## Output of the program
 enter the number6
 number is not prime
 
-# 20.Program to find number is odd or even
+# 17.Program to find number is odd or even
+```C
 #include <stdio.h>
 
 int main()
@@ -572,7 +508,7 @@ int main()
 
  return 0;
 }
-
+```
 
 ## Output of the program
 Enter an integer
