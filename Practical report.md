@@ -571,3 +571,54 @@ Enter 7 number
 Enter the the number u want to search
 2
 Not found! 2 is not present in the list
+
+# 19.Program of linear search
+```C
+#include<stdio.h>
+
+int check(int b[],int m,int o)
+{int p=-1;
+        for(int i=1;i<=m;i++)
+        {
+                if(b[i]==o)
+                 p = i;
+        }
+
+                        return p;
+        
+}
+
+void main()
+{
+        int n,num,index;
+        printf("enter the array size\n");
+        scanf("%d",&n);
+        int a[n];
+        printf("enter the array elements\n");
+        for(int i=1;i<=n;i++)
+        {
+                scanf("%d",&a[i]);
+        }
+        printf("now enter the number which you want to check\n whether it is present or not in entered array\n");
+
+        scanf("%d",&num);
+        index=check(a,n,num);
+        if(index==-1)
+        printf("element is not found\n");
+        else
+        printf("element is found at the position %d \n",index);
+}
+```
+
+## Output of the program
+enter the array size
+4
+enter the array elements
+2
+3
+6
+9
+now enter the number which you want to check
+ whether it is present or not in entered array
+6
+element is found at the position 3
