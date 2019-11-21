@@ -328,6 +328,7 @@ return 0;
 Enter the Interger: 171
 Fizz
 # 13. Program of print a Calculator using puts function
+```C
 #include<stdio.h>
 void main()
 {
@@ -342,6 +343,7 @@ _______________\n\
 | 0 | * |\n\
 |___________|___|\n");
 }
+```
 ## Output of the program
 _______________
 | 1 | 2 | 3 | |
