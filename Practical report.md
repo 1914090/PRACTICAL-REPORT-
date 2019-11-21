@@ -215,6 +215,7 @@ x * y = 1395.000
 x/y = 1.452
 y/x = 0.689
 # 9. Program to use Assignment Operators
+```C
 #include<stdio.h>
 int main()
 {
@@ -233,6 +234,7 @@ a /=x; //answer is a/x
 printf("Answer is a/x= %.3f\n",a);
 return 0;
 }
+```
 ## Output of the program
 Enter The Value of x: 45
 Answer is a = x 45.000
@@ -241,6 +243,7 @@ Answer is a-x = 45.000
 Answer is a*x = 2025.000
 Answer is a/x= 45.000
 # 10. Program to use Operator Precedence
+```C
 #include<stdio.h>
 int main()
 {
@@ -263,6 +266,7 @@ A = (b-c)*(a-d);
 printf("\n (b-c)*(a-d) = %.3f",A);
 return 0;
 }
+```
 ## Output of the program
 Enter The Value of a: 45
 Enter The Value of b: 31
