@@ -622,3 +622,27 @@ now enter the number which you want to check
  whether it is present or not in entered array
 6
 element is found at the position 3
+
+# 20.Program of calculate first 10 natural numbers
+```C
+#include <stdio.h>
+int main()
+{
+    int n, i, sum = 0;
+    
+    printf("Enter a positive integer: ");
+    scanf("%d",&n);
+    for(i=1; i <= n; ++i)
+    {
+        sum += i;   
+    }
+    printf("Sum = %d",sum);
+    return 0;
+}
+ ```
+
+## Output of the program
+Enter a positive integer: 6
+Sum = 21
+
+************************************************
